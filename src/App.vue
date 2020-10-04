@@ -1,20 +1,33 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <Header />
+    <img alt="SeedHack" src="./assets/logo.png" width="300" />
+    <router-view />
+  </v-app>
 </template>
 
+<script>
+import Header from "./views/Header"
+export default {
+  name: "App",
+  components: {
+    Header,
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #191919;
+  color: #eeeeee;
+}
+
+img {
+  margin: 0 auto;
+  // padding-bottom: 30px;
 }
 
 #nav {
