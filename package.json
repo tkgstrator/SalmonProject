@@ -1,5 +1,5 @@
 {
-  "name": "salmonrun",
+  "name": "seedhack",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,19 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "firebase": "^7.20.0",
+    "firebase": "^7.22.0",
+    "highlight.js": "~9.18.1",
+    "ngx-highlightjs": "^4.1.1",
     "vue": "^2.6.11",
+    "vue-highlight.js": "^3.1.0",
     "vue-router": "^3.2.0",
     "vuefire": "^2.2.0-alpha.0",
+    "vuelidate": "^0.7.5",
     "vuetify": "^2.2.11",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
+    "@types/highlight.js": "^9.12.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",

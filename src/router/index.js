@@ -14,7 +14,12 @@ const routes = [
     path: '/ranking',
     name: 'Ranking',
     component: () => import(/* webpackChunkName: "about" */ '../views/Ranking.vue')
-  }
+  },
+  {
+    path: '/result',
+    name: 'Result',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Result.vue')
+  },
 ]
 
 const router = new VueRouter({
